@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="iconodeventana.png" type="img/png">
+    <title>Porfolio</title>
+</head>
+<body>
+    <!-- Secciòn INICIO -->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-brands fa-codepen"></i>
+                        <h1>Mi Portafolio</h1>
+                    </div>
+                    <nav id="nav" class=""">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#habilidades">Habilidades</a>
+                        <a href="#trabajos">Trabajos</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+    
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+    
+                    <div class="redes">
+                        <a href="http://www.linkedin.com/in/"> <i class="fab fa-linkedin"></i></a>
+                        <a href="https://youtube.com/@johannimejia8560?si=M6qkDvvPZKxEjb55"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/johanni_mejia?igsh=cHdsamt3c2twaXo3"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </header>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>Soy Johanni Mejia Reyes</h2>
+                        <p>Soy estudiante de término de Ingeniería en Sistemas con una gran pasión por la tecnología y el desarrollo de software. Me encanta aprender y enfrentar nuevos desafíos en el mundo de la programación.</p>
+                        <a href="https://github.com/Johannimejiareyes/PRESENTACION/raw/main/TrabajoFinal.pdf"
+                        download="Mi_cv_pdf">
+                        <button class="btn btn-1">Descargar CV</button>
+                    </a>
+
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="perfilcv.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+
+    
+        <section id="servicios" class="servicios">
+            <h1>Servicios</h1>
+            <div class="fila">
+                <div class="col">
+                    <div class="card">
+                        <div class="icono color1">
+                            <div class="circulo">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                        </div>
+                        <h3>Diseño Web</h3>
+                        <p>Creación de sitios web visualmente atractivos y responsivos utilizando HTML y CSS.</p>
+    
+                        <a href="#">Leer Más</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="icono color2">
+                            <div class="circulo">
+                                <!--<i class="fa-solid fa-palette"></i>-->
+                                <i class="fas fa-server"></i> (&#xf233;)
+                            </div>
+                        </div>
+                        <h3>Desarrollo Web</h3>
+                        <p> Creación de aplicaciones web personalizadas usando C# y ASP.NET . Desarrollo de soluciones escalables y seguras para satisfacer las necesidades empresariales.</p>
+    
+                        <a href="#">Leer Más</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="icono color3">
+                            <div class="circulo">
+                                <i class="fas fa-mobile-alt"></i> (&#xf367;)
+                            </div>
+                        </div>
+                        <h3>Desarrollo Móvil</h3>
+                        <p>Creación de aplicaciones móviles multiplataforma con Xamarin , permitiendo el uso en Android e iOS con una sola base de código.</p>
+    
+                        <a href="#">Leer Más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="card">
+                        <div class="icono color1">
+                            <div class="circulo">
+                                <i class="fas fa-chart-bar"></i> (&#xf080;)
+                            </div>
+                        </div>
+                        <h3>Análisis de datos</h3>
+                        <p>Diseño de paneles interactivos en Power BI , conectando bases de datos en SQL Server para generar insights que faciliten la toma de decisiones.</p>
+    
+                        <a href="#">Leer Más</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="icono color2">
+                            <div class="circulo">
+                                <i class="fas fa-pencil-ruler"></i>
+                            </div>
+                        </div>
+                        <h3>Diseño UI/UX</h3>
+                        <p> Diseño de interfaces de usuario atractivas y funcionales para aplicaciones web y móviles, con prototipos interactivos creados en Figma.</p>
+    
+                        <a href="#">Leer Más</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="icono color3">
+                            <div class="circulo">
+                                <i class="fas fa-database"></i>
+                            </div>
+                        </div>
+                        <h3>Administración de Bases de Datos</h3>
+                        <p>Creación de consultas, procedimientos almacenados y funciones para mejorar el rendimiento y la integridad de los datos con SQL server.</p>
+    
+                        <a href="#">Leer Más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     
+        
+   
+
+    <!-- sección habilidades -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h1>Habilidades</h1>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="75">
+                                75%
+                            </div>
+                            <h2>HTML & CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="70">
+                                70%
+                            </div>
+                            <h2>SQL Sever</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="60">
+                                60%
+                            </div>
+                            <h2>C#</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="80">
+                                80%
+                            </div>
+                            <h2>Power BI</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="68">
+                                68%
+                            </div>
+                            <h2>Xamarin</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="90">
+                                90%
+                            </div>
+                            <h2>Figma</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección trabajos -->
+    <section class="trabajos" id="trabajos">
+        <h2>Mis Trabajos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('powerbi')">Power BI</a>
+            <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('disenio')">Diseño UX/UI</a>
+            <a href="javascript:void(0)" class="" id="animaciones" onclick="verCategoria('xamarin')">Xamarin</a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item powerbi">
+                <img src="dashbor.png" alt="">
+                <div class="info">
+                    <h3>Dashboard</h3>
+                    <span>Power BI</span><span>SQL Server</span>
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiMmEwMDFlYjUtYWE1OS00MjFlLWJhMWItZTliYTU1NmE2YzY2IiwidCI6IjQyMTVmZWEzLTdlMWItNDQyNi04MmJjLTFkODJkYTBmZTk4MyIsImMiOjJ9">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item xamarin">
+                <img src="crud.png" alt="">
+                <div class="info">
+                    <h3>CRUD</h3>
+                    <span>C#</span><span>Xamarin</span><span>SQL Server</span>
+                    <a href="https://www.youtube.com/watch?v=oqujM3wAmkQ">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item disenio">
+                <img src="figma.png" alt="">
+                <div class="info">
+                    <h3>Prototipos de dispositivo móvil</h3>
+                    <span>figma</span>
+                    <a href="https://www.figma.com/proto/y803H9LWArUyyrQwEYc4Ad/ZOOPLUS?type=design&node-id=24-94&t=sM0dYv4rO8d4L51G-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=24%3A94&show-proto-sidebar=1">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item xamarin">
+                <img src="calcul.png" alt="">
+                <div class="info">
+                    <h3>Calculadora</h3>
+                    <span>C#</span><span>Xamarin</span>
+                    <a href="https://www.youtube.com/watch?v=ZEWAxQThV4w">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item xamarin">
+                <img src="apis.png" alt="">
+                <div class="info">
+                    <h3>Aplicacion para ver el clima</h3>
+                    <span>C#</span><span>Xamarin</span>
+                    <a href="https://www.youtube.com/watch?v=hino63mb9gQ">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item xamarin">
+                <img src="xamarinimc.png" alt="">
+                <div class="info">
+                    <h3>Calculadora IMC</h3>
+                    <span>Xamarin</span><span>C#</span>
+                    <a href="https://www.youtube.com/watch?v=6rH2N1cXuMI">Ver Trabajo</a>
+                </div>
+            </div>
+
+              <!-- 
+            <div class="item disenio">
+                <img src="crud.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>SQL server</span><span>C#</span><span>Xamarin</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="figma.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>Figma</span>
+                    <a href="https://www.figma.com/proto/y803H9LWArUyyrQwEYc4Ad/ZOOPLUS?type=design&node-id=24-94&t=sM0dYv4rO8d4L51G-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=24%3A94&show-proto-sidebar=1">Ver Trabajo</a>
+                </div>
+            </div>
+
+          
+            <div class="item programacion">
+                <img src="neflixpc.png" alt="">
+                <div class="info">
+                    <h3>Titulo del Trabajo</h3>
+                    <span>Figma</span>
+                    <a href="https://www.figma.com/proto/ctqwQQ3RLBe06OtzTKyYOl/Netflix-PC?node-id=1-2&t=uhe9lsV7sDDMa2x0-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1">Ver Trabajo</a>
+                </div>
+            </div>
+        -->
+        </div>
+    </section>
+
+    <!-- sección contacto -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">  
+                <div class="col">
+                    <div class="info">
+                        <h3>Email:</h3>
+                        <p > mejiajohanni94@gmail.com
+                            
+                        </p>
+                    </div>
+                    <div class="info">
+                        <h3>Teléfono:</h3>
+                        <p>829-404-1043</p>
+                    </div>
+                    <div class="info">
+                        <h3>País:</h3>
+                        <p>Republica Dominicana</p>
+                    </div>
+                    <div class="info">
+                        <h3>Ciudad:</h3>
+                        <p>San Cristobal</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Nombre...">
+                    <input type="text" placeholder="Correo...">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar" class="btn">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Portafolio en construcción</p>
+    </footer>
+    <script src="app.js"></script>
+
+   
+
+</body>
+</html>
